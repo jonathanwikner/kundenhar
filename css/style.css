@@ -1,0 +1,193 @@
+
+.homewrapper {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 20% auto 27% 34% ;
+    grid-template-rows: 10% auto 15% 35% ;
+    grid-template-areas: 
+    'hd hd hd hd '
+    'nav bild section bid '
+    'nav artist section bid '
+    'nav footer footer footer';
+    gap: 4px ;
+    
+}
+
+
+
+body {
+    background-color: #40ffbe;
+}
+
+header{
+    grid-area: hd;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #FF4081;
+}
+
+
+nav{  
+    grid-area: nav;
+    color:black;
+    line-height: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF4081;
+    padding: 1rem;
+}
+
+
+.section {
+    grid-area: section;
+    background-color: #FF4081;
+    padding: 3px;
+}
+
+.bid {
+    grid-area: bid;
+    background-color: #FF4081;
+    padding: 3px;
+}
+
+.bild img{
+grid-area: bild; 
+height: 100%;
+width: auto;
+object-fit: contain;
+}
+
+.artist{
+    grid-area: artist;
+    background-color:#FF4081 ;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #FF4081;
+    padding: 5px;
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    line-height: normal;
+}
+
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 20% 26% 26% 26% ;
+    grid-template-rows: 10% 30% 30% 30%;
+    grid-template-areas: 
+    'hd hd hd hd '
+    'nav bidding1 bidding2 bidding3'
+    'nav bidding4 bidding5 bidding6'
+    'nav bidding7 bidding8 bidding9';
+    gap: 4px ;
+    
+}
+
+
+.profilwrapper {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 20% 26% 26% 26% ;
+    grid-template-rows: 10% 20% 30% 40%;
+    grid-template-areas: 
+    'hd hd hd hd '
+    'nav profilbild username usernamea '
+    'nav användtext användtext användtext'
+    'nav populärast1 populärast2 populärast3';
+    gap: 4px;
+}
+
+
+.profilbild {
+    grid-area: profilbild;
+    display: flex;
+    -ms-flex-item-align: center;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: #FF4081;
+}
+
+.användarnamn {
+    background-color: #FF4081;
+    text-align: center;
+    grid-area: username;
+}
+
+
+section{
+    background-color: #FF4081;
+}
+
+.img img {
+    height: 50%;
+    width: auto;
+    object-fit: contain;
+}
+
+.text{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    line-height: 5px;
+    
+      
+}
+
+
+.bidding1{
+    grid-area: bidding1;
+    background-color: #FF4081;
+}
+
+.bidding2{
+    grid-area: bidding2;
+    background-color: #FF4081;
+}
+
+.bidding3{
+    grid-area: bidding3;
+    background-color: #FF4081;
+}
+
+
+.bidding4{
+    grid-area: bidding4;
+    background-color: #FF4081;
+}
+
+.bidding5{
+    grid-area: bidding5;
+    background-color: #FF4081;
+}
+
+.bidding6{
+    grid-area: bidding6;
+    background-color: #FF4081;
+}
+
+.bidding7{
+    grid-area: bidding7;
+    background-color: #FF4081;
+}
+
+.bidding8{
+    grid-area: bidding8;
+    background-color: #FF4081;
+}
+
+.bidding9{
+    grid-area: bidding9;
+    background-color: #FF4081;
+}
