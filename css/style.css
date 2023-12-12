@@ -125,14 +125,15 @@ footer{
 }
 
 
-section{
-    background-color: #FF4081;
+.card{
+    display: flex;
+    text-align: center;
 }
 
-.img img {
-    height: 50%;
-    width: auto;
-    object-fit: contain;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text{
@@ -140,9 +141,7 @@ section{
     font-size: 20px;
     text-align: center;
     padding: 2px;
-    line-height: 5px;
-    
-      
+    line-height: 3px;
 }
 
 
