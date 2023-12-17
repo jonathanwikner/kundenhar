@@ -125,11 +125,6 @@ footer{
 }
 
 
-.card{
-    display: flex;
-    text-align: center;
-}
-
 .center{
     display: block;
     margin-left: auto;
@@ -148,45 +143,63 @@ footer{
 .bidding1{
     grid-area: bidding1;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding2{
     grid-area: bidding2;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding3{
     grid-area: bidding3;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 
 .bidding4{
     grid-area: bidding4;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding5{
     grid-area: bidding5;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding6{
     grid-area: bidding6;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding7{
     grid-area: bidding7;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding8{
     grid-area: bidding8;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
 
 .bidding9{
     grid-area: bidding9;
     background-color: #FF4081;
+    display: flex;
+    text-align: center;
 }
