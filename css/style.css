@@ -118,17 +118,17 @@ footer{
 
 
 .popularast1 {
-    grid-template-rows: popularst1;
+    grid-area: popularast1;
     background-color: #FF4081;
 }
 
 .popularast2 {
-    grid-template-rows: popularst2;
+    grid-area: popularast2;
     background-color: #FF4081;
 }
 
 .popularast3 {
-    grid-template-rows: popularst3;
+    grid-area: popularast3;
     background-color: #FF4081;
 }
 
@@ -153,7 +153,6 @@ footer{
 .profilbild {
     grid-area: profilbild;
     display: flex;
-    -ms-flex-item-align: center;
     height: 100%;
     width: 100%;
     object-fit: contain;
