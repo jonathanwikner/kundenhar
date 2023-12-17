@@ -98,11 +98,11 @@ footer{
     height: 100vh;
     width: 100%;
     grid-template-columns: 20% 26% 26% 26% ;
-    grid-template-rows: 10% 20% 30% 10% 30%;
+    grid-template-rows: 10% auto auto 10% 30%;
     grid-template-areas: 
     'hd hd hd hd '
     'nav profilbild username username '
-    'nav anvandartext anvandartext anvandartext'
+    'nav profilbild anvandartext anvandartext'
     'nav popularsttext popularsttext popularsttext'
     'nav popularast1 popularast2 popularast3';
     gap: 4px;
