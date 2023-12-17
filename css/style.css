@@ -98,15 +98,57 @@ footer{
     height: 100vh;
     width: 100%;
     grid-template-columns: 20% 26% 26% 26% ;
-    grid-template-rows: 10% 20% 30% 40%;
+    grid-template-rows: 10% 20% 30% 10% 30%;
     grid-template-areas: 
     'hd hd hd hd '
-    'nav profilbild username usernamea '
-    'nav användtext användtext användtext'
-    'nav populärast1 populärast2 populärast3';
+    'nav profilbild username username '
+    'nav anvandartext anvandartext anvandartext'
+    'nav popularsttext popularsttext popularsttext'
+    'nav popularast1 popularast2 popularast3';
     gap: 4px;
 }
 
+
+.popularsttext{
+    grid-area: popularsttext;
+    background-color: #FF4081;
+    text-align: center;
+    line-height: 6px;
+}
+
+
+.popularast1 {
+    grid-template-rows: popularst1;
+    background-color: #FF4081;
+}
+
+.popularast2 {
+    grid-template-rows: popularst2;
+    background-color: #FF4081;
+}
+
+.popularast3 {
+    grid-template-rows: popularst3;
+    background-color: #FF4081;
+}
+
+.popularast1bild{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.popularast2bild{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.popularast3bild{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 
 .profilbild {
     grid-area: profilbild;
@@ -118,12 +160,16 @@ footer{
     background-color: #FF4081;
 }
 
-.användarnamn {
+.username {
     background-color: #FF4081;
     text-align: center;
     grid-area: username;
 }
 
+.anvandartext{
+    grid-area: anvandartext;
+    background-color: #FF4081;
+}
 
 .card{
     display: flex;
